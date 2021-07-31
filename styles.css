@@ -1,0 +1,137 @@
+
+.logo {
+   
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes movedown {
+    0% {
+         transform: translateY(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateY(0);
+         visibility:visible;
+    }
+
+}
+.navbar_child {
+   
+    animation: movedown 1s linear 1;
+    animation-delay: 1.8s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes movedown {
+    0% {
+         transform: translateY(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateY(0);
+         visibility:visible;
+    }
+
+}
+.cart 
+{
+   
+    animation: movedown 1s linear 1;
+    animation-delay: 2.5s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes movedown {
+    0% {
+         transform: translateY(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateY(0);
+         visibility:visible;
+    }
+
+}
+.head_left {
+   
+    animation: moveright 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes moveright {
+    0% {
+         transform: translateX(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateY(0);
+         visibility:visible;
+    }
+
+}
+.line_left {
+   
+    animation: moveright 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes moveright {
+    0% {
+         transform: translateX(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateX(0);
+         visibility:visible;
+    }
+
+}
+.arrows {
+   
+    animation: moveright 1s linear 1;
+    animation-delay: 2.8s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes moveright {
+    0% {
+         transform: translateX(-100px);
+         visibility:visible;
+    }
+
+    100% {
+         transform: translateX(0);
+         visibility:visible;
+    }
+
+}
+.main_image {
+   
+    animation: outside 1s  linear 1;
+  
+  
+    animation-delay: 4s;
+    visibility: hidden;
+   animation-fill-mode: forwards;
+}
+@keyframes outside {
+    0% {
+         transform:scale(0.1);
+         visibility:visible;
+    }
+
+    100% {
+         transform: scale(1);
+         visibility:visible;
+    }
+
+}
